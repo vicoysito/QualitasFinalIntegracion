@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/Qual_PushNot/regmovil?wsdl" uri="src/conf/xml-resources/web-service-references/regmovil/wsdl/localhost_8080/Qual_PushNot/regmovil.wsdl"/>
+    <system systemId="http://localhost:8080/Qual_PushNot/regmovil?xsd=1" uri="src/conf/xml-resources/web-service-references/regmovil/wsdl/localhost_8080/Qual_PushNot/regmovil.xsd_1.xsd"/>
+</catalog>

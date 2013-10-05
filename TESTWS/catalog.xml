@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://ip-50-63-128-151.ip.secureserver.net:8080/FormQualitas/FormWS?WSDL" uri="src/conf/xml-resources/web-service-references/FormWS/wsdl/ip-50-63-128-151.ip.secureserver.net_8080/FormQualitas/FormWS.wsdl"/>
+    <system systemId="http://ip-50-63-128-151.ip.secureserver.net:8080/FormQualitas/FormWS?xsd=1" uri="src/conf/xml-resources/web-service-references/FormWS/wsdl/ip-50-63-128-151.ip.secureserver.net_8080/FormQualitas/FormWS.xsd_1.xsd"/>
+</catalog>

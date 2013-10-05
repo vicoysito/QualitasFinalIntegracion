@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.1 (branches/2.1-6728; 2011-02-03T14:14:58+0000) JAXWS-RI/2.2.3 JAXWS/2.2. --><xs:schema xmlns:tns="http://services/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://services/">
+
+<xs:element name="hello" type="tns:hello" />
+
+<xs:element name="helloResponse" type="tns:helloResponse" />
+
+<xs:element name="recibeForm" type="tns:recibeForm" />
+
+<xs:element name="recibeFormResponse" type="tns:recibeFormResponse" />
+
+<xs:complexType name="hello">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="helloResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="recibeForm">
+<xs:sequence>
+<xs:element name="per" type="tns:persona" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="persona">
+<xs:sequence>
+<xs:element name="apMaterno" type="xs:string" minOccurs="0" />
+<xs:element name="apPaterno" type="xs:string" minOccurs="0" />
+<xs:element name="CP" type="xs:string" minOccurs="0" />
+<xs:element name="calle" type="xs:string" minOccurs="0" />
+<xs:element name="colonia" type="xs:string" minOccurs="0" />
+<xs:element name="email" type="xs:string" minOccurs="0" />
+<xs:element name="estado" type="xs:string" minOccurs="0" />
+<xs:element name="noExt" type="xs:string" minOccurs="0" />
+<xs:element name="noInt" type="xs:string" minOccurs="0" />
+<xs:element name="nombre" type="xs:string" minOccurs="0" />
+<xs:element name="poblacion" type="xs:string" minOccurs="0" />
+<xs:element name="telefono" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="recibeFormResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
